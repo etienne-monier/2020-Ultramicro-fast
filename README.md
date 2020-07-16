@@ -29,6 +29,23 @@ pip install scikit-image==0.16.2 hyperspy==1.5.2 inpystem==0.1.1 PyQt5 inquirer 
 Warning: The inpystem version is 0.1.1. The scikit and hyperspy versions are set as a conflict was discovered recently discovered (see [here](https://github.com/hyperspy/hyperspy/issues/2402)).
 
 
+## Getting the images
+
+The images disk usage is 327.6 Mo, so that it is not hosted by github. To get them, please follow these steps:
+
+1. Download the data [here](http://dobigeon.perso.enseeiht.fr/data/EELS/data_EELS_2020.zip),
+2. Unzip it into the codes directory.
+3. Ensure the `acquisitions/` folder is loacated at the same level as the python codes.
+
+For linux users, this should help.
+
+```
+cd /path/to/the/codes
+wget http://dobigeon.perso.enseeiht.fr/data/EELS/data_EELS_2020.zip
+unzip data_EELS_2020.zip
+rm data_EELS_2020.zip
+```
+
 ## Usage
 
 To reproduce the results, one should first build the reconstructed data to generate the figures afterwards.
