@@ -78,4 +78,4 @@ Again, the program will ask you which figure you are interested in. Finally, it 
 
 ## Author and license
 
-These codes were written by [Etienne Monier](http://monier.perso.enseeiht.fr/) and are distributed under the MIT license.
+These codes were written by [Etienne Monier](https://etienne-monier.github.io/) and are distributed under the MIT license.
